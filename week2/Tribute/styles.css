@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background: linear-gradient(to right, #7aff5f, #feb47b);
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header .container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#title {
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+#content {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  flex-grow: 1; /* İçeriğin yukarı itmesini sağlar */
+}
+
+.content-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#img-div {
+  flex: 1 1 40%;
+  text-align: center;
+  margin-right: 20px;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+#img-caption {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+.info {
+  flex: 1 1 55%;
+  padding-left: 20px;
+}
+
+.info h2,
+.info h3 {
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+ul li {
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+ul li::before {
+  content: "✔";
+  color: #007bff;
+  margin-right: 10px;
+}
+
+.link {
+  text-align: center;
+  margin-top: 30px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background: #333;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+  margin-top: 40px;
+  width: 100%;
+}
+
+footer p {
+  font-size: 0.9rem;
+  margin: 0;
+}
+
