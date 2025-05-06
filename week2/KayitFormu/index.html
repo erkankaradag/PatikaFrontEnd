@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Kayıt Formu</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="styles.css">
+<body>
+<form id="survey-form">
+    <h1 id="title">KAYIT FORMU</h1>
+    <p id="description">Lütfen aşağıdaki formu doldurun.</p>
+
+    <!-- İsim -->
+    <label id="name-label" for="name">İsim</label>
+    <div class="icon-input">
+      <i class="fas fa-user"></i>
+      <input type="text" id="name" name="name" placeholder="Adınızı giriniz" required>
+    </div>
+
+    <!-- E-posta -->
+    <label id="email-label" for="email">E-posta</label>
+    <div class="icon-input">
+      <i class="fas fa-envelope"></i>
+      <input type="email" id="email" name="email" placeholder="ornek@mail.com" required>
+    </div>
+
+    <!-- Sayı -->
+    <label id="number-label" for="number">Yaş</label>
+    <div class="icon-input">
+      <i class="fas fa-hashtag"></i>
+      <input type="number" id="number" name="age" min="1" max="120" placeholder="Yaşınızı giriniz" required>
+    </div>
+
+    <!-- Seçim Kutusu -->
+    <label for="dropdown">Eğitim Durumunuz</label>
+    <select id="dropdown" name="education" required>
+      <option value="">Seçiniz</option>
+      <option value="lise">Lise</option>
+      <option value="universite">Üniversite</option>
+    </select>
+
+    <!-- Radyo Düğmeleri -->
+    <label>Cinsiyet</label>
+    <label><input type="radio" name="gender" value="erkek" required> Erkek</label>
+    <label><input type="radio" name="gender" value="kadin"> Kadın</label>
+
+    <!-- Onay Kutuları -->
+    <label>Hobiler</label>
+    <label><input type="checkbox" name="hobby" value="spor"> Spor</label>
+    <label><input type="checkbox" name="hobby" value="muzik"> Müzik</label>
+
+    <!-- Metin Alanı -->
+    <label for="comments">Ek Yorumlar</label>
+    <textarea id="comments" name="comments" rows="4" placeholder="Görüşlerinizi yazınız..."></textarea>
+
+    <!-- Gönder Butonu -->
+    <input type="submit" id="submit" value="Gönder">
+
+  </form>
+
+</body>
+</html>
