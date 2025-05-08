@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sticky Footer Blog</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    html, body {
+      height: 100%;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+    main {
+      flex: 1;
+    }
+  </style>
+</head>
+<body>
+    <main>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Blogum</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Ana Sayfa</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Hakkımda</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">İletişim</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <div class="p-5 mb-4 bg-light rounded-3">
+    <div class="container py-5">
+      <h1 class="display-5 fw-bold">Bloguma Hoş Geldiniz!</h1>
+      <p class="fs-4">Bu blogda yazılım, tasarım ve günlük yaşantımla ilgili içerikler paylaşıyorum. Keyifli okumalar!</p>
+    </div>
+  </div>
+
+  <!-- Blog Cards -->
+  <div class="container">
+    <div class="row g-4">
+
+      <!-- Blog Card 1 -->
+      <div class="col-md-4">
+        <div class="card h-100 d-flex flex-column">
+          <img src="https://picsum.photos/id/25/400/200" class="card-img-top" alt="Blog Resmi">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Yazılım Dünyasına Giriş</h5>
+            <p class="card-text">Yazılım öğrenmeye nereden başlamalıyız? Gerekli araçlar ve önerilen kaynaklar bu yazıda...</p>
+            <a href="#" class="btn btn-primary mt-auto">Devamını Oku</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog Card 2 -->
+      <div class="col-md-4">
+        <div class="card h-100 d-flex flex-column">
+          <img src="https://picsum.photos/id/35/400/200" class="card-img-top" alt="Blog Resmi">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">CSS ile Tasarım İpuçları</h5>
+            <p class="card-text">CSS kullanarak etkileyici arayüzler nasıl oluşturulur? Temel tasarım kuralları nelerdir?</p>
+            <a href="#" class="btn btn-primary mt-auto">Devamını Oku</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog Card 3 -->
+      <div class="col-md-4">
+        <div class="card h-100 d-flex flex-column">
+          <img src="https://picsum.photos/id/45/400/200" class="card-img-top" alt="Blog Resmi">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Bootstrap ile Modern Web</h5>
+            <p class="card-text">Bootstrap ile hızlı ve mobil uyumlu web siteleri nasıl hazırlanır? Örneklerle öğrenin.</p>
+            <a href="#" class="btn btn-primary mt-auto">Devamını Oku</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</main>
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+      <p class="mb-1">© 2025 Blogum. Tüm Hakları Saklıdır.</p>
+      <p class="mb-0">Tasarım ve Kodlama: <a href="https://github.com/erkankaradag" target="_blank" class="text-decoration-none text-warning">Erkan Karadağ</a></p>
+    </div>
+  </footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
