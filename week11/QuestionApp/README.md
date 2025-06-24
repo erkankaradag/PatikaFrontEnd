@@ -24,12 +24,12 @@ Bu proje, React ve Vite kullanılarak geliştirilmiş zaman sınırlı, görsell
 [Questionapp](https://questionapp.erkankaradag.com/)
 
 # Proje Görselleri 
-![ss1](src/screenshots/ss1.png)
+![ss1](src/screenshots/Screenshot_1.jpg)
 
-![ss2](src/screenshots/ss2.png)
+![ss2](src/screenshots/Screenshot_2.jpg)
 
-![ss3](src/screenshots/ss3.png)
+![ss3](src/screenshots/Screenshot_3.jpg)
 
-![ss4](src/screenshots/ss4.png)
+![ss4](src/screenshots/Screenshot_4.jpg)
 
-![ss5](src/screenshots/ss5.png)
+![ss5](src/screenshots/Screenshot_5.jpg)
