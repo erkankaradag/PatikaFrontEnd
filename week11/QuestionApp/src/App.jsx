@@ -13,7 +13,7 @@ function HomePage(){
       <div className="card">
         {/*Logo için div*/}
         <div className="logo">
-          qA
+          QA
           </div>
           {/*Ana sayfanın başlığı*/}
           <h4>QUIZ APP</h4>

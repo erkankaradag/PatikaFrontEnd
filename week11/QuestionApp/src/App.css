@@ -15,11 +15,11 @@ body {
 }
 /*kullanacağım renkleri bir kere tanımlayıp istediğim yerde kullandım*/
 :root{
-  --bg-color: #00304f;
-  --grid-color:#6d989e;
+  --bg-color: #d80000;
+  --grid-color:#ffffff;
   --font-color:#fff;
   --border-color:#1a9c9638;
-  --logo-color:#178984;
+  --logo-color:#d80000;
 }
 /*arka plandaki ızgara görünümü*/
 body::after {
