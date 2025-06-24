@@ -21,7 +21,7 @@ Bu proje, React ve Vite kullanılarak geliştirilmiş zaman sınırlı, görsell
 🎯 Dairesel (yuvarlak) animasyonlu sayaç göstergesi
 
 # Canlı Proje Linki
-[Questionapp](https://questionnapp.erkankaradag.com/)
+[Questionapp](https://questionapp.erkankaradag.com/)
 
 # Proje Görselleri 
 ![ss1](src/screenshots/ss1.png)
